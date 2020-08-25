@@ -40,3 +40,34 @@ figure.foto-legenda figcaption {
 figure.foto-legenda:hover figcaption {
     opacity: 1;
 }
+
+/*  Formatação do Menu  */
+
+/* Formatação para fazer o menu ficar no topo da página */
+nav#menu {
+        display: block;
+}
+
+/* Formatação para o NAV MENU - Tudo que for UL */
+nav#menu ul {
+        list-style: none;
+        text-transform: uppercase;
+        position: absolute; /* Fazer q a lista UL flutue pela tela 
+                                POSIÇÃO ABSOLUTA: A LISTA FLUTUA LIVRE PELA PÁGINA
+                                POSIÇÃO RELATIVA: A LISTA FLUTUA SÓ DENTRO DO nav */
+        top: -20px;
+        left: 300px;
+}
+
+/* Formatação para o NAV MENU - Tudo que for LI */
+nav#menu li {
+         display: inline-block;
+         background-color: #dddddd;
+         padding: 10px;
+         margin: 2px;
+}
+
+/* Formatação para esconder o Menu Principal VISUALMENTE NA PÁGINA MAS APARECE PARA OS MECANISMOS DE BUSCAS  */
+nav#menu h1 {
+         display: none;
+}
