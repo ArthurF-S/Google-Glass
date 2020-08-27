@@ -66,6 +66,7 @@ nav#menu li {
          padding: 10px;
          margin: 2px;
          transition: background-color 1s;
+         
 }
 
 nav#menu li:hover{
