@@ -1,21 +1,38 @@
 @charset "UTF-8";
 
+body{
+    background-color: white;
+    color:rgba(0, 0, 0, 0.5)
+}
+
+div#interface{
+    width:  900px;
+    background-color: #ffffff;
+    margin:     -20px auto 0px auto;
+    box-shadow: 0px 0px 10px grey;
+    padding:    10px; /* PADDING É O ESPAÇO INTERNO DO OBJETO - SE TODOS OS LADOS FOR A MESMA
+                                        QUANTIADDE DE PIXEL PODE INDICAR SÓ UMA VEZ*/
+}
+
 p {
     text-align: justify;
     text-indent: 50px;
 }
 
-body{
-        background-color: white;
-        color:rgba(0, 0, 0, 0.5)
+header#cabecalho {
+    height: 100px;
 }
-
+img#icone {
+    position: relative;
+    left: 730px;
+    top: -80px;
+}
 
 /* Formatação de imagens com legendas */
 
 figure.foto-legenda {
-    position: relative;
-    border: 8px solid white;
+    position:   relative;
+    border:     8px solid white;
     box-shadow: 1px 1px 4px black;
 }
 
@@ -52,11 +69,11 @@ nav#menu {
 nav#menu ul {
         list-style: none;
         text-transform: uppercase;
-        position: absolute; /* Fazer q a lista UL flutue pela tela 
+        position: relative; /* Fazer q a lista UL flutue pela tela 
                                 POSIÇÃO ABSOLUTA: A LISTA FLUTUA LIVRE PELA PÁGINA
                                 POSIÇÃO RELATIVA: A LISTA FLUTUA SÓ DENTRO DO nav */
-        top: -20px;
-        left: 300px;
+        top: -270px;
+        left: 280px;
 }
 
 /* Formatação para o NAV MENU - Tudo que for LI */
@@ -65,8 +82,7 @@ nav#menu li {
          background-color: #dddddd;
          padding: 10px;
          margin: 2px;
-         transition: background-color 1s;
-         
+         transition: background-color 1s;        
 }
 
 nav#menu li:hover{
