@@ -10,13 +10,14 @@ body{
     color:rgba(0, 0, 0)
 }
 
+/* PADDING É O ESPAÇO INTERNO DO OBJETO - SE TODOS OS LADOS FOR A MESMA
+   QUANTIADDE DE PIXEL PODE INDICAR SÓ UMA VEZ*/
 div#interface{
     width:  900px;
     background-color: #ffffff;
     margin:     -20px auto 0px auto;
     box-shadow: 0px 0px 10px grey;
-    padding:    10px; /* PADDING É O ESPAÇO INTERNO DO OBJETO - SE TODOS OS LADOS FOR A MESMA
-                                        QUANTIADDE DE PIXEL PODE INDICAR SÓ UMA VEZ*/
+    padding:    10px; 
 }
 
 p {
@@ -55,8 +56,8 @@ header#cabecalho h2 {
     padding: 0px;
     margin-top: 0px;
 }
-/* Formatação de imagens com legendas */
 
+/* Formatação de imagens com legendas */
 figure.foto-legenda {
     position:   relative;
     border:     8px solid white;
@@ -130,9 +131,21 @@ nav#menu a:hover{
     color: white;
 }
 
+section#corpo {
+    display: block;
+    width: 500px;
+    float: left;
+}
 
+aside#lateral {
+    display: block;
+    width: 350px;
+    float: right;
+}
 
-
+footer#rodape {
+    clear: both;
+}
 
 
 
