@@ -149,8 +149,25 @@ table#tabelaspec {
 table#tabelaspec td {
     border: 1px solid #606060;
     padding: 10px;
-    text-align: left;
+    text-align:right;
+    vertical-align: middle;
+}
+
+table#tabelaspec td.ce {
+    color: #ffffff;
+    background-color: #606060;
     vertical-align: top;
+    font-weight: bold;
+}
+
+table#tabelaspec td.cd {
+    background-color: #cecece;
+}
+
+table#tabelaspec caption {
+    color: #888888;
+    font-size: 15pt;
+    font-weight: bolder;
 }
 
 aside#lateral {
