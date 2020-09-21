@@ -139,6 +139,7 @@ section#corpo {
     padding-right: 15px;
 }
 
+/* ACEITA A MESMA CLASSE PARA VÁRIOS OBJETOS */
 table#tabelaspec {
     border: 1px solid #606060;
     border-spacing: 0px;
@@ -168,6 +169,15 @@ table#tabelaspec caption {
     color: #888888;
     font-size: 15pt;
     font-weight: bolder;
+}
+
+table#tabelaspec caption span {
+    display: block;
+    float: right;
+    color: #000000;
+    font-size: 8pt;
+    margin-top: 10px;
+
 }
 
 aside#lateral {
