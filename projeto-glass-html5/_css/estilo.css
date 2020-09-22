@@ -147,6 +147,18 @@ article#noticia-principal h2 {
     margin: 10px 0px 10px 0px;
 }
 
+header#cabecalho-artigo h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+}
+
+header#cabecalho-artigo h2 {
+    font-size:13pt;
+    color: #cecece;
+    background-color: #ffffff;
+}
+
 /* ACEITA A MESMA CLASSE PARA VÁRIOS OBJETOS */
 table#tabelaspec {
     border: 1px solid #606060;
