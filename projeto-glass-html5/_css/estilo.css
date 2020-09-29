@@ -44,7 +44,7 @@ header#cabecalho {
 img#icone {
     position: relative;
     left: 730px;
-    top: -43px;
+    top: -32px;
 }
 
 header#cabecalho {
@@ -104,6 +104,12 @@ figure.foto-legenda:hover figcaption {
 /* Formatação para fazer o menu ficar no topo da página */
 nav#menu {
         display: block;
+        position: relative;
+        float: right;        
+        top: -130px;
+        left: -10px;
+
+        
 }
 
 
@@ -111,11 +117,10 @@ nav#menu {
 nav#menu ul {
         list-style: none;
         text-transform: uppercase;
-        position: relative; /* Fazer q a lista UL flutue pela tela 
+        /* Fazer q a lista UL flutue pela tela 
                                 POSIÇÃO ABSOLUTA: A LISTA FLUTUA LIVRE PELA PÁGINA
                                 POSIÇÃO RELATIVA: A LISTA FLUTUA SÓ DENTRO DO nav */
-        top: -255px;
-        left: 250px;
+       
 }
 
 /* Formatação para o NAV MENU - Tudo que for LI */
