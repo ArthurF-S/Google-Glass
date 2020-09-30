@@ -37,15 +37,11 @@ a:hover {
 }
 
 
-header#cabecalho {
-    height: 100px;
-}
-
-img#icone {
-    position: relative;
-    left: 730px;
-    top: -32px;
-}
+header#cabecalho img#icone {
+    position: absolute;
+    padding-left: 720px;
+    top: 70px;
+} 
 
 header#cabecalho {
     border-bottom: 1px #606060 solid;
@@ -104,10 +100,9 @@ figure.foto-legenda:hover figcaption {
 /* Formatação para fazer o menu ficar no topo da página */
 nav#menu {
         display: block;
-        position: relative;
-        float: right;        
-        top: -130px;
-        left: -10px;
+        position: relative;           
+        top: -114px;
+        left: 250px;
 
         
 }
